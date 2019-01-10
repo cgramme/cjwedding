@@ -1,0 +1,123 @@
+.bride-content {
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	//background: #333;
+
+	.bride-left {
+		float: left;
+		width: 400px;
+		height: 400px;
+		//background: #777;
+
+		.color-graphic-left {
+			position: relative;
+			background: #eed6ff;
+			width: 600px;
+			height: 1000px;
+			top: -560px;
+			left: -170px;
+			z-index: 1;
+			transform: rotate(-35deg);
+		}
+
+		h3 {
+			font-family: "Dancing Script";
+			color: #555;
+			text-align: center;
+			font-size: 3em;
+			margin: 30px 0;
+			position: relative;
+			z-index: 2;
+			text-shadow: 1px 1px 2px #555;
+		}
+
+		.bride-picture {
+			position: relative;
+			margin: 0 0 0 50px;
+			background: url(media/jamesan1.jpg);
+			background-size: 100% 100%;
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			overflow: hidden;
+			z-index: 2;
+			box-shadow: 1px 1px 5px #444;
+
+			p {
+				text-align: center;
+				color: #fff;
+				text-shadow: 1px 1px 1px #222;
+				background: rgba(160,214,180, 0.7);
+				position: relative;
+				top: 250px;
+				padding: 15px 20px 20px 20px;
+			}
+		}
+	}
+
+	.bride-right {
+		float: right;
+		width: 800px;
+		height: 400px;
+
+		h3 {
+			text-align: center;
+			font-family: "Dancing Script";
+			color: #555;
+			font-size: 3em;
+			margin: 30px 0;
+			text-shadow: 1px 1px 2px #555;
+		}
+
+		ul {
+			text-align: center;
+
+			li {
+				text-align: center;
+				display: inline-block;
+				width: 32%;
+
+				.profile {
+					overflow: hidden;
+					width: 150px;
+					height: 150px;
+					border-radius: 50%;
+					margin: 0 auto;
+					box-shadow: 1px 1px 5px #444;
+				}
+
+				.rachel {
+					background: url(media/rachel.jpg);
+					background-size: 100% 100%;
+				}
+				.samantha {
+					background: url(media/samantha.jpg);
+					background-size: 100% 100%;
+				}
+				.sarah {
+					background: url(media/sarah.jpg);
+					background-size: 100% 100%;
+				}
+				.christine {
+					background: url(media/christine.jpg);
+					background-size: 100% 100%;
+				}
+				.jena {
+					background: url(media/jena.jpg);
+					background-size: 100% 100%;
+				}
+
+				p {
+					color: #fff;
+					text-shadow: 1px 1px 1px #222;
+					background: rgba(160,214,180, 0.7);
+					position: relative;
+					top: 120px;
+					padding: 5px 20px 10px 20px;
+
+				}
+			}
+		}
+	}
+}

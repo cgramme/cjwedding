@@ -1,0 +1,98 @@
+.groom-content {
+  width: 1200px;
+  height: 400px;
+  margin: 0 auto; }
+  .groom-content .groom-left {
+    float: left;
+    width: 400px;
+    height: 400px; }
+    .groom-content .groom-left .color-graphic-left {
+      position: relative;
+      background: url(../media/bamboo.jpg);
+      background-size: 100% 100%;
+      width: 650px;
+      height: 650px;
+      top: -400px;
+      left: -200px;
+      z-index: 1;
+      border-radius: 50%;
+      box-shadow: 1px 1px 20px 3px #000; }
+    .groom-content .groom-left h3 {
+      font-family: "Dancing Script";
+      color: #eee;
+      text-align: center;
+      font-size: 3em;
+      margin: 30px 0;
+      position: relative;
+      z-index: 2;
+      text-shadow: 1px 1px 2px #000; }
+    .groom-content .groom-left .groom-picture {
+      position: relative;
+      margin: 0 0 0 50px;
+      background: url(../media/chris.jpg);
+      background-size: 100% 100%;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      border: 5px solid #eee;
+      overflow: hidden;
+      z-index: 2;
+      box-shadow: 1px 1px 10px 2px #222; }
+      .groom-content .groom-left .groom-picture p {
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #222;
+        background: rgba(0, 0, 0, 0.7);
+        position: relative;
+        top: 250px;
+        padding: 15px 20px 20px 20px; }
+  .groom-content .groom-right {
+    float: right;
+    width: 800px;
+    height: 400px; }
+    .groom-content .groom-right h3 {
+      text-align: center;
+      font-family: "Dancing Script";
+      color: #333;
+      font-size: 3em;
+      margin: 30px 0;
+      text-shadow: 1px 1px 2px #555; }
+    .groom-content .groom-right ul {
+      text-align: center; }
+      .groom-content .groom-right ul li {
+        text-align: center;
+        display: inline-block;
+        width: 32%; }
+        .groom-content .groom-right ul li .profile {
+          border: 5px solid #222;
+          overflow: hidden;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          margin: 0 auto;
+          box-shadow: 1px 1px 6px #222; }
+        .groom-content .groom-right ul li .brian {
+          background: url(../media/brian.jpg);
+          background-size: 100% 100%; }
+        .groom-content .groom-right ul li .tristan {
+          background: url(../media/tristan.jpg);
+          background-size: 100% 100%; }
+        .groom-content .groom-right ul li .jeff {
+          background: url(../media/jeff.jpg);
+          background-size: 100% 100%; }
+        .groom-content .groom-right ul li .lee {
+          background: url(../media/lee.jpg);
+          background-size: 100% 100%; }
+        .groom-content .groom-right ul li .ian {
+          background: url(../media/ian.jpg);
+          background-size: 100% 100%; }
+        .groom-content .groom-right ul li p {
+          color: #fff;
+          text-shadow: 1px 1px 1px #222;
+          background: rgba(0, 0, 0, 0.7);
+          position: relative;
+          top: 110px;
+          font-size: 0.9em;
+          padding: 5px 20px 20px 20px; }
+
+/*# sourceMappingURL=groom_style.css.map */
