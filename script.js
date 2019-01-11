@@ -20,7 +20,6 @@ $(".nav li").click(function(){
     var loadPage;
 
 
-    //alert($(this).text());
 
     if($(this).text() == "About"){
         loadPage = "about_content";
@@ -36,7 +35,6 @@ $(".nav li").click(function(){
         loadPage = "about_content";
     }
 
-    alert(loadPage);
 
   $.ajax({url: loadPage+".html", success: function(result){
     $("#ajaxContent").html(result);
