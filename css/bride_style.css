@@ -27,7 +27,7 @@
     .bride-content .bride-left .bride-picture {
       position: relative;
       margin: 0 0 0 50px;
-      background: url(media/jamesan1.jpg);
+      background: url(../media/jamesan1.jpg);
       background-size: 100% 100%;
       width: 300px;
       height: 300px;
@@ -68,19 +68,19 @@
           margin: 0 auto;
           box-shadow: 1px 1px 5px #444; }
         .bride-content .bride-right ul li .rachel {
-          background: url(media/rachel.jpg);
+          background: url(../media/rachel.jpg);
           background-size: 100% 100%; }
         .bride-content .bride-right ul li .samantha {
-          background: url(media/samantha.jpg);
+          background: url(../media/samantha.jpg);
           background-size: 100% 100%; }
         .bride-content .bride-right ul li .sarah {
-          background: url(media/sarah.jpg);
+          background: url(../media/sarah.jpg);
           background-size: 100% 100%; }
         .bride-content .bride-right ul li .christine {
-          background: url(media/christine.jpg);
+          background: url(../media/christine.jpg);
           background-size: 100% 100%; }
         .bride-content .bride-right ul li .jena {
-          background: url(media/jena.jpg);
+          background: url(../media/jena.jpg);
           background-size: 100% 100%; }
         .bride-content .bride-right ul li p {
           color: #fff;
