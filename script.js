@@ -37,7 +37,18 @@ $(".nav li").click(function(){
 
 
   $.ajax({url: loadPage+".html", success: function(result){
+
     $("#ajaxContent").html(result);
+
+
+    $("#ajaxContent").addClass('fade-out').delay(500).queue(function(next){
+
+        $("#ajaxContent").html(result).removeClass('fade-out').addClass('fade-in');
+
+        next();
+
+    });
+
   }});
 });
 
