@@ -14,11 +14,12 @@
 		margin-left: -175px;
 		margin-top: 50px;
 		position: absolute;
-		box-shadow: 1px 1px 5px #999;
+		box-shadow: 1px 1px 5px #777;
 	}
 
 	.about-text-left {
 		margin: 50px 0 0 0;
+		height: 400px;
 		width: 400px;
 		float: left;
 	}
@@ -26,6 +27,7 @@
 	.about-text-right {
 		margin: 50px 0 0 0;
 		width: 400px;
+		height: 400px;
 		float: right;
 	}
 
@@ -42,5 +44,12 @@
 		font-size: 1.2em;
 		color: #444;
 		font-family: "Raleway";
+	}
+
+	hr {
+		width: 70%;
+		height: 2px;
+		border: none;
+		background: #ccc;
 	}
 }
