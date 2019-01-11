@@ -8,8 +8,7 @@
     height: 400px; }
     .groom-content .groom-left .color-graphic-left {
       position: relative;
-      background: url(../media/bamboo.jpg);
-      background-size: 100% 100%;
+      background: #ddd;
       width: 650px;
       height: 650px;
       top: -400px;
