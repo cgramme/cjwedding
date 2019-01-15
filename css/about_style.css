@@ -2,6 +2,10 @@
   width: 1200px;
   height: 400px;
   margin: 0 auto; }
+  @media screen and (max-width: 1250px) {
+    .about-content {
+      width: 100%;
+      height: auto; } }
   .about-content .profile-image {
     background-image: url(../media/cruise.jpg);
     background-size: 100% 100%;
@@ -12,22 +16,115 @@
     margin-left: -175px;
     margin-top: 50px;
     position: absolute;
-    box-shadow: 1px 1px 5px #777; }
+    box-shadow: 1px 1px 5px #777;
+    display: block; }
+    @media screen and (max-width: 1250px) {
+      .about-content .profile-image {
+        display: none; } }
   .about-content .about-text-left {
     margin: 50px 0 0 0;
     height: 400px;
     width: 400px;
-    float: left; }
+    float: left;
+    position: relative; }
+    @media screen and (max-width: 1250px) {
+      .about-content .about-text-left {
+        width: 40%;
+        padding: 5%;
+        margin-top: 0px; } }
+    @media screen and (max-width: 1100px) {
+      .about-content .about-text-left {
+        width: 60%;
+        height: auto;
+        padding: 5% 20% 8% 20%;
+        margin-top: 0px; } }
+    @media screen and (max-width: 1100px) {
+      .about-content .about-text-left {
+        width: 80%;
+        height: auto;
+        padding: 5% 10% 8% 10%;
+        margin-top: 0px; } }
+    .about-content .about-text-left p {
+      text-align: justify; }
+    .about-content .about-text-left .profile-image-small {
+      background-image: url(../media/cruise.jpg);
+      background-size: 100% 100%;
+      border-radius: 20px 2px 2px 2px;
+      width: 210px;
+      height: 210px;
+      box-shadow: 1px 1px 5px #777;
+      display: none;
+      margin: 5px; }
+      @media screen and (max-width: 1250px) {
+        .about-content .about-text-left .profile-image-small {
+          display: block;
+          float: left; } }
+      @media screen and (max-width: 500px) {
+        .about-content .about-text-left .profile-image-small {
+          display: block;
+          float: none;
+          width: 100%;
+          background-size: 100%;
+          border-radius: 50% 50% 2px 2px; } }
+    .about-content .about-text-left hr {
+      display: none; }
+      @media screen and (max-width: 1100px) {
+        .about-content .about-text-left hr {
+          display: block;
+          position: absolute;
+          bottom: 0;
+          width: 80%; } }
   .about-content .about-text-right {
     margin: 50px 0 0 0;
     width: 400px;
     height: 400px;
     float: right; }
+    @media screen and (max-width: 1250px) {
+      .about-content .about-text-right {
+        width: 40%;
+        padding: 5%;
+        margin: 0; } }
+    @media screen and (max-width: 1100px) {
+      .about-content .about-text-right {
+        width: 80%;
+        padding: 10%;
+        margin: 0;
+        height: auto; } }
+    .about-content .about-text-right .venue-image-small {
+      background-image: url(../media/weddingVenue2.jpg);
+      background-size: 100% 100%;
+      border-radius: 20px 2px 2px 2px;
+      width: 210px;
+      height: 210px;
+      box-shadow: 1px 1px 5px #777;
+      display: none;
+      margin: 5px; }
+      @media screen and (max-width: 1250px) {
+        .about-content .about-text-right .venue-image-small {
+          display: block;
+          float: left; } }
+      @media screen and (max-width: 500px) {
+        .about-content .about-text-right .venue-image-small {
+          display: block;
+          float: none;
+          width: 100%;
+          background-size: 100%;
+          border-radius: 50% 50% 2px 2px; } }
+    .about-content .about-text-right p {
+      text-align: justify; }
+    .about-content .about-text-right hr {
+      display: none; }
+      @media screen and (max-width: 1100px) {
+        .about-content .about-text-right hr {
+          display: block;
+          position: absolute;
+          bottom: 0;
+          width: 80%; } }
   .about-content h3 {
     text-align: center;
     font-family: "Dancing Script";
     font-size: 3em;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     color: #555;
     text-shadow: 1px 1px 2px #999; }
   .about-content p {
@@ -39,5 +136,8 @@
     height: 2px;
     border: none;
     background: #ccc; }
+
+.clear {
+  clear: both; }
 
 /*# sourceMappingURL=about_style.css.map */
