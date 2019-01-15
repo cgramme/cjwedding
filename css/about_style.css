@@ -37,6 +37,8 @@
         height: auto;
         padding: 10%;
         margin: 0; } }
+    .about-content .about-text-left p {
+      text-align: justify; }
     .about-content .about-text-left .profile-image-small {
       background-image: url(../media/cruise.jpg);
       background-size: 100% 100%;
@@ -73,6 +75,8 @@
         padding: 10%;
         margin: 0;
         height: auto; } }
+    .about-content .about-text-right p {
+      text-align: justify; }
   .about-content h3 {
     text-align: center;
     font-family: "Dancing Script";
