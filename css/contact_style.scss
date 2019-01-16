@@ -1,12 +1,13 @@
 .contact-content {
 	width: 100%;
-	height: 450px;
+	height: auto;
 	margin: 0 auto;
+	padding: 50px 0;
 	background: #eee;
 	overflow: hidden;
 
 	h3 {
-		padding: 50px 0;
+		padding-bottom: 50px;
 		color: #333;
 		text-shadow: 1px 1px 2px #555;
 		text-align: center;
@@ -16,13 +17,28 @@
 
 	.contact-left {
 		float: left;
-		width: 50%;
-		height: 500px;
+		width: 600px;
+		padding: 0 0 0 5%;
 		//background: #777;
 
+		@media screen and (max-width: 1250px) {
+	    	float: none;
+	    	margin: 0 auto;
+	  	}
+
+		.contact-left-background {
+			//background: url(../media/wood3.jpg);
+			background-size: 100% 100%;
+			width: 100%;
+			height: 100%;
+			//padding: 5% 0;
+			border-radius: 10px;
+			//box-shadow: 1px 1px 10px #000;
+		}
+
 		.bride-groom-pic {
-			width: 280px;
-			height: 280px;
+			width: 250px;
+			height: 250px;
 			background: url(../media/bride_and_groom2.png);
 			background-size: 100% 100%;
 			float: left;
@@ -30,8 +46,20 @@
 
 		}
 
+		.dialog-box {
+			float: right;
+			width: 250px;
+			height: auto;
+			background: url(../media/dialog_box.png);
+			background-size: 100% 100%;
+			position: relative;
+			left: -30px;
+		}
+
 		p {
-			margin-top: 50px;
+			padding: 20px 20px 20px 50px;
+			//text-align: justify;
+			font-size: 1em;
 		}
 
 	}
@@ -39,9 +67,14 @@
 	.contact-right {
 		text-align: center;
 		float: right;
-		width: 50%;
-		height: 500px;
-		//background: #333;
+		width: 600px;
+		padding: 0 5% 0 0;
+		//background: #999;
+
+		@media screen and (max-width: 1250px) {
+	    	float: none;
+	    	margin: 0 auto;
+	  	}
 
 		textarea {
 			width: 500px;
