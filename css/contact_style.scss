@@ -9,7 +9,7 @@
 
 	h3 {
 		position: relative;
-		z-index: 10px;
+		z-index: 10;
 		padding-bottom: 50px;
 		color: #333;
 		text-shadow: 1px 1px 2px #555;
@@ -51,14 +51,25 @@
 
 		.contact-left-background {
 			position: absolute;
-			margin: -110px 0 0 -160px;
-			//background: url(../media/palms2ee.png);
+			margin: -120px 0 0 -100px;
+			background: radial-gradient(#aaa, #eee, #eee);
 			background-size: 100% 100%;
-			width: 750px;
-			height: 350px;
+			width: 650px;
+			height: 500px;
 			//padding: 5% 0;
-			border-radius: 10px;
+			border-radius: 50%;
 			//box-shadow: 1px 1px 10px #000;
+
+			@media screen and (max-width: 550px) {
+		    	width: 550px;
+				height: 450px;
+				margin: -120px 0 0 -70px;
+		  	}
+		  	@media screen and (max-width: 425px) {
+		    	width: 450px;
+				height: 350px;
+				margin: -100px 0 0 -60px;
+		  	}
 		}
 
 		.bride-groom-pic {
@@ -148,7 +159,19 @@
 		  	}
 	  	}
 
+	  	p {
+	  		position: relative;
+			z-index: 10;
+	  	}
+
+	  	input {
+	  		position: relative;
+			z-index: 10;
+	  	}
+
 		textarea {
+			position: relative;
+			z-index: 10;
 			width: 450px;
 			height: 100px;
 			border-radius: 10px;

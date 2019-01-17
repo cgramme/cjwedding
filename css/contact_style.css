@@ -8,7 +8,7 @@
   overflow: hidden; }
   .contact-content h3 {
     position: relative;
-    z-index: 10px;
+    z-index: 10;
     padding-bottom: 50px;
     color: #333;
     text-shadow: 1px 1px 2px #555;
@@ -40,11 +40,22 @@
           width: 320px; } }
     .contact-content .contact-left .contact-left-background {
       position: absolute;
-      margin: -110px 0 0 -160px;
+      margin: -120px 0 0 -100px;
+      background: radial-gradient(#aaa, #eee, #eee);
       background-size: 100% 100%;
-      width: 750px;
-      height: 350px;
-      border-radius: 10px; }
+      width: 650px;
+      height: 500px;
+      border-radius: 50%; }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-left .contact-left-background {
+          width: 550px;
+          height: 450px;
+          margin: -120px 0 0 -70px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-left .contact-left-background {
+          width: 450px;
+          height: 350px;
+          margin: -100px 0 0 -60px; } }
     .contact-content .contact-left .bride-groom-pic {
       position: relative;
       width: 250px;
@@ -109,7 +120,15 @@
       @media screen and (max-width: 425px) {
         .contact-content .contact-right .right-wrap {
           width: 320px; } }
+    .contact-content .contact-right p {
+      position: relative;
+      z-index: 10; }
+    .contact-content .contact-right input {
+      position: relative;
+      z-index: 10; }
     .contact-content .contact-right textarea {
+      position: relative;
+      z-index: 10;
       width: 450px;
       height: 100px;
       border-radius: 10px;
