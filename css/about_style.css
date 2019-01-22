@@ -1,4 +1,5 @@
 .about-content {
+  position: relative;
   width: 1200px;
   height: 400px;
   margin: 0 auto; }

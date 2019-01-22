@@ -1,4 +1,4 @@
-.contact-content {
+.registry-content {
 	position: relative;
 	width: 100%;
 	height: auto;
@@ -18,7 +18,7 @@
 		font-size: 3em;
 	}
 
-	.contact-left {
+	.registry-left {
 		float: left;
 		width: 50%;
 		//padding: 0 0 0 5%;
@@ -50,7 +50,7 @@
 		  	}
 	  	}
 
-		.contact-left-background {
+		.registry-left-background {
 			position: absolute;
 			margin: -120px 0 0 -100px;
 			background: radial-gradient(#aaa, #eee, #eee);
@@ -94,7 +94,6 @@
 		}
 
 		.dialog-box {
-			position: relative;
 			float: right;
 			width: 250px;
 			height: auto;
@@ -129,7 +128,7 @@
 
 	}
 
-	.contact-right {
+	.registry-right {
 		text-align: center;
 		float: right;
 		width: 50%;
@@ -143,7 +142,6 @@
 	  	}
 
 	  	.right-wrap {
-	  		position: relative;
 	  		width: 500px;
 	  		//background: #111;
 	  		float: left;
@@ -160,57 +158,62 @@
 		  	@media screen and (max-width: 425px) {
 		    	width: 320px;
 		  	}
-	  	}
+	  	}	
 
-	  	p {
-	  		position: relative;
-			z-index: 10;
-	  	}
-
-	  	input {
-	  		position: relative;
-			z-index: 10;
-	  	}
-
-		textarea {
+		.registry-link {
 			position: relative;
-			z-index: 10;
-			width: 450px;
-			height: 100px;
-			border-radius: 10px;
-			box-shadow: 1px 1px 3px #777;
-
-			@media screen and (max-width: 550px) {
-		    	width: 380px;
-		  	}
-		  	@media screen and (max-width: 425px) {
-		    	width: 300px;
-		  	}
-		}
-
-		.enter-text {
-			font-size: 1em;
-			height: 25px;
-			width: 200px;
-			border-radius: 5px;
-			box-shadow: 1px 1px 3px #777;
-		}
-
-		.submit-button {
-			width: 100px;
-			height: 40px;
-			background: #5f9ea0;
-			color: #fff;
-			font-size: 1.1em;
-			margin-top: 10px;
-			border-radius: 10px;
-			box-shadow: 1px 1px 3px #333;
+			width:100%;
+			-webkit-transition: 0.8s;
+  			transition: 0.8s;
 
 			&:hover {
-				box-shadow: 0px 0px 1px #333;
 				cursor: pointer;
-			};
+				transform: scale(1.1);
+			}
 		}
+	  	.gifts {
+	  		position: relative;
+	  		z-index: 10;
+	  		background: url(../media/gifts.png);
+	  		background-size: 100% 100%;
+	  		width: 400px;
+	  		height: 270px;
+	  		margin: auto;
+	  		text-align: center;
+
+	  		@media screen and (max-width: 550px) {
+		    	width: 300px;
+		    	height: 200px;
+		  	}
+		  	@media screen and (max-width: 425px) {
+		    	width: 270px;
+		    	height: 170px;
+		  	}
+
+	  		p {
+	  			position: relative;
+	  			top: 120px;
+	  			font-size: 2.2em;
+	  			color: #fff;
+	  			font-weight: bold;
+	  			padding: 10px;
+	  			background: rgba(0,0,0,0.5);
+	  			border-radius: 20px;
+	  			width: 240px;
+	  			margin: auto;
+
+	  			@media screen and (max-width: 550px) {
+		    		top: 80px;
+		    		font-size: 1.8em;
+		    		width: 200px;
+			  	}
+			  	@media screen and (max-width: 425px) {
+			    	top: 60px;
+			    	font-size: 1.5em;
+			    	width: 170px;
+			  	}
+	  		}
+	  	}
 
 	}
 }
