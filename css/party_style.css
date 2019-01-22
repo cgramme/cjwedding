@@ -1,13 +1,13 @@
 .groom-background-color {
-  background: linear-gradient(90deg, #222, #eee); }
+  background: linear-gradient(90deg, #010048, #eee); }
+
+.bride-background-color {
+  background: linear-gradient(90deg, #4B0082, #eee); }
 
 .party-content {
   width: 100%;
   height: auto;
   margin: 0 auto; }
-  @media screen and (max-width: 750px) {
-    .party-content {
-      background: linear-gradient(180deg, #4B0082, #eee); } }
   .party-content .party-left-wrap {
     width: 40%;
     height: auto;
@@ -175,4 +175,4 @@
               top: 90px;
               font-size: 0.9em; } }
 
-/*# sourceMappingURL=bride_style.css.map */
+/*# sourceMappingURL=party_style.css.map */
