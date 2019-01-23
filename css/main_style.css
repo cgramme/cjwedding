@@ -160,6 +160,7 @@ footer {
   width: 100%;
   padding: 40px 0;
   background: #222;
+  background: linear-gradient(0deg, rgba(12, 117, 161, 0.9), rgba(0, 0, 0, 0.4));
   text-align: center; }
   footer .countdown {
     color: #fff;
