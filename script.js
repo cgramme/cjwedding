@@ -11,7 +11,7 @@ $(window).scroll(function () {
     if(width >= 1200 && scrollDistance){
         $('#myVideo').css({'top' : ((scrollDistance/1.5)-20)+"px"});
         $('.header-graphic').css({'top' : (scrollDistance/2)+"px"});
-        $('.header-graphic').css({'transform' : "scale("+(1-(scrollDistance/5000))+")"});
+        $('.header-graphic').css({'transform' : "scale("+(1-(scrollDistance/2000))+")"});
     }
 
 });
