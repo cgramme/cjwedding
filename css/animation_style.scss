@@ -97,3 +97,16 @@
     -webkit-animation: popIn 1.3s forwards;
     animation: popIn 1.3s forwards;
 }
+
+@keyframes menuIn {
+    0%{
+        transform: rotateX(90deg);
+    }
+    100%{
+        transform: rotateX(0deg);
+    }
+}
+.menu-in {
+    -webkit-animation: menuIn 0.5s forwards;
+    animation: menuIn 0.5s forwards;
+}

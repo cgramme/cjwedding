@@ -23,6 +23,8 @@ body {
   width: 100%; }
 
 header {
+  perspective: 200px;
+  perspective-origin: bottom;
   position: relative;
   z-index: 10;
   text-align: center;
@@ -69,8 +71,11 @@ header {
         header .header-graphic h2 {
           font-size: 2em; } }
   header ul.nav {
+    transform-style: preserve-3d;
+    transform-origin: 50% 100%;
     width: 100%;
-    background: rgba(0, 0, 0, 0.3);
+    background: linear-gradient(0deg, rgba(12, 117, 161, 0.9), rgba(0, 0, 0, 0.4));
+    box-shadow: 0 0 5px #222, inset 0 0 50px #222;
     overflow: hidden;
     position: absolute;
     bottom: 0; }
@@ -83,13 +88,14 @@ header {
       color: #fff;
       display: inline-block;
       width: 20.01%;
-      height: 60px;
-      padding-top: 20px;
+      height: 42px;
+      padding-top: 10px;
       margin-left: -4px;
       -webkit-transition: 0.8s;
       /* Safari */
       transition: 0.8s;
-      vertical-align: middle; }
+      vertical-align: middle;
+      text-shadow: 1px 1px 2px #000; }
       @media screen and (max-width: 800px) {
         header ul.nav li {
           font-size: 1.3em;
@@ -107,7 +113,7 @@ header {
         width: 60%;
         border-radius: 2px;
         height: 2px;
-        background: #5f9ea0;
+        background: #97CAE8;
         -webkit-transition: 0.8s;
         /* Safari */
         transition: 0.8s;
@@ -121,13 +127,15 @@ header {
           header ul.nav li hr {
             display: none; } }
       header ul.nav li:hover {
-        background: #a0d6b4;
+        background: rgba(151, 202, 232, 0.5);
         cursor: pointer;
-        color: #222;
-        font-size: 1.9em; }
+        color: #444;
+        text-shadow: 1px 1px 2px #555;
+        font-size: 1.8em;
+        box-shadow: inset 0 0 50px #2A75A1; }
         @media screen and (max-width: 800px) {
           header ul.nav li:hover {
-            font-size: 1.3em; } }
+            font-size: 1.5em; } }
         header ul.nav li:hover hr {
           opacity: 0; }
 
@@ -137,13 +145,24 @@ main {
   height: auto;
   overflow: hidden;
   background: #eee; }
+  main .main-hr {
+    width: 70%;
+    margin-bottom: 30px;
+    height: 1px;
+    background: #ccc;
+    border: none;
+    border-radius: 2px; }
 
 footer {
   position: relative;
   z-index: 10;
   box-shadow: 0 0 20px #000;
   width: 100%;
-  height: 100px;
-  background: #222; }
+  padding: 40px 0;
+  background: #222;
+  text-align: center; }
+  footer .countdown {
+    color: #fff;
+    font-size: 1.1em; }
 
 /*# sourceMappingURL=main_style.css.map */
