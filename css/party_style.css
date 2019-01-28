@@ -1,8 +1,8 @@
 .groom-background-color {
-  background: linear-gradient(90deg, #4790BC, #eee); }
+  background: linear-gradient(to top, #33ccff 0%, #d1721f 30%, #d1341f 100%); }
   @media screen and (max-width: 750px) {
     .groom-background-color {
-      background: linear-gradient(180deg, #4790BC, #eee); } }
+      background: linear-gradient(to top, #33ccff 0%, #d1721f 30%, #d1341f 100%); } }
 
 .bride-background-color {
   background: linear-gradient(90deg, #DCCEF9, #eee); }
@@ -11,10 +11,24 @@
       background: linear-gradient(180deg, #9573da, #eee); } }
 
 .bride-content h3 {
-  color: #9573DA; }
+  color: #333; }
+.bride-content .palms-silhouette {
+  width: 100%;
+  height: 400px;
+  background: url(../media/palms_purp.png);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0; }
 
 .groom-content h3 {
-  color: #444; }
+  color: #fff; }
+.groom-content .palms-silhouette {
+  width: 100%;
+  height: 400px;
+  background: url(../media/palms.png);
+  background-size: 100% 100%;
+  position: absolute;
+  bottom: 0; }
 
 .party-content {
   width: 100%;
@@ -87,7 +101,7 @@
         background: rgba(0, 0, 0, 0.7);
         position: relative;
         top: 250px;
-        padding: 15px 20px 20px 20px; }
+        padding: 10px 20px 20px 20px; }
         @media screen and (max-width: 950px) {
           .party-content .party-left .bride-picture p, .party-content .party-left .groom-picture p {
             top: 200px; } }
@@ -178,11 +192,11 @@
           background: rgba(0, 0, 0, 0.7);
           position: relative;
           top: 115px;
-          font-size: 0.9em;
-          padding: 5px 20px 20px 20px; }
+          font-size: 0.7em;
+          padding: 3px 20px 20px 20px; }
           @media screen and (max-width: 1150px) {
             .party-content .party-right ul li p {
-              top: 90px;
-              font-size: 0.9em; } }
+              top: 85px;
+              font-size: 0.7em; } }
 
 /*# sourceMappingURL=party_style.css.map */
