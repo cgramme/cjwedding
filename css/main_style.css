@@ -31,7 +31,7 @@ header {
   height: 400px;
   width: 100%;
   background: #333;
-  box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 50px #000;
   overflow: hidden; }
   @media screen and (max-width: 800px) {
     header {
@@ -54,7 +54,7 @@ header {
       padding-top: 100px;
       color: #fff;
       font-size: 4.5em;
-      text-shadow: 1px 1px 5px #222; }
+      text-shadow: 1px 1px 10px #000; }
       @media screen and (max-width: 800px) {
         header .header-graphic h1 {
           font-size: 3em;
@@ -74,7 +74,7 @@ header {
     transform-style: preserve-3d;
     transform-origin: 50% 100%;
     width: 100%;
-    background: linear-gradient(0deg, rgba(12, 117, 161, 0.9), rgba(0, 0, 0, 0.4));
+    background: linear-gradient(0deg, rgba(12, 117, 161, 0.9), rgba(20, 29, 40, 0.5));
     box-shadow: 0 0 5px #222, inset 0 0 50px #222;
     overflow: hidden;
     position: absolute;
@@ -88,8 +88,8 @@ header {
       color: #fff;
       display: inline-block;
       width: 20.01%;
-      height: 42px;
-      padding-top: 10px;
+      height: 55px;
+      padding-top: 15px;
       margin-left: -4px;
       -webkit-transition: 0.8s;
       /* Safari */
@@ -112,8 +112,9 @@ header {
         border: 0;
         width: 60%;
         border-radius: 2px;
-        height: 2px;
-        background: #97CAE8;
+        height: 1px;
+        box-shadow: 1px 1px 2px #333;
+        background: linear-gradient(90deg, #423223, #5e4b38);
         -webkit-transition: 0.8s;
         /* Safari */
         transition: 0.8s;
@@ -129,15 +130,15 @@ header {
       header ul.nav li:hover {
         background: rgba(151, 202, 232, 0.5);
         cursor: pointer;
-        color: #444;
         text-shadow: 1px 1px 2px #555;
-        font-size: 1.8em;
+        font-size: 2em;
         box-shadow: inset 0 0 50px #2A75A1; }
         @media screen and (max-width: 800px) {
           header ul.nav li:hover {
             font-size: 1.5em; } }
         header ul.nav li:hover hr {
-          opacity: 0; }
+          opacity: 0;
+          width: 0; }
 
 main {
   position: relative;
@@ -156,14 +157,15 @@ main {
 footer {
   position: relative;
   z-index: 10;
-  box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 50px #444, inset 0 0 10px #222;
   width: 100%;
-  padding: 40px 0;
+  padding: 30px 0;
   background: #222;
-  background: linear-gradient(0deg, rgba(12, 117, 161, 0.9), rgba(0, 0, 0, 0.4));
+  background: url(../media/sand1e.jpg);
   text-align: center; }
   footer .countdown {
-    color: #fff;
-    font-size: 1.1em; }
+    color: #423223;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px #333; }
 
 /*# sourceMappingURL=main_style.css.map */

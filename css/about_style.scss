@@ -1,7 +1,7 @@
 .about-content {
 	position: relative;
 	width: 1200px;
-	height: 400px;
+	height: 450px;
 	margin: 0 auto;
 	//background-color: #999;
 
@@ -30,7 +30,7 @@
 
 	.about-text-left {
 		margin: 50px 0 0 0;
-		height: 400px;
+		height: auto;
 		width: 400px;
 		float: left;
 		position: relative;
@@ -40,13 +40,7 @@
 	    	padding: 5%;
 	    	margin-top: 0px;
 	  	}
-	  	@media screen and (max-width: 1100px) {
-	    	width: 60%;
-	    	height: auto;
-	    	padding: 5% 20% 8% 20%;
-	    	margin-top: 0px;
-	  	}
-	  	@media screen and (max-width: 1100px) {
+	  	@media screen and (max-width: 800px) {
 	    	width: 80%;
 	    	height: auto;
 	    	padding: 5% 10% 8% 10%;
@@ -63,23 +57,22 @@
 		.profile-image-small {
 			background-image: url(../media/cruise.jpg);
 			background-size: 100% 100%;
-			border-radius: 20px 2px 2px 2px;
-			width: 210px;
-			height: 210px;
+			border-radius: 210px;
+			width: 300px;
+			height: 300px;
 			box-shadow: 1px 1px 5px #777;
 			display: none;
-			margin: 5px;
-			
-			@media screen and (max-width: 1250px) {
-		    	display: block;
-		    	float: left;
-		  	}
-		  	@media screen and (max-width: 500px) {
+			margin: 0 auto 20px auto;
+
+		  	@media screen and (max-width: 1250px) {
 		    	display: block;
 		    	float: none;
-		    	width: 100%;
 		    	background-size: 100%;
-		    	border-radius: 50% 50% 2px 2px;
+		  	}
+
+		  	@media screen and (max-width: 500px) {
+		    	height: 250px;
+		    	width: 250px;
 		  	}
 		}
 
@@ -99,7 +92,7 @@
 	.about-text-right {
 		margin: 50px 0 0 0;
 		width: 400px;
-		height: 400px;
+		height: auto;
 		float: right;
 		position: relative;
 
@@ -108,7 +101,7 @@
 	    	padding: 5%;
 	    	margin: 0;
 	  	}
-	  	@media screen and (max-width: 1100px) {
+	  	@media screen and (max-width: 800px) {
 	    	width: 80%;
 	    	padding: 10%;
 	    	margin: 0;
@@ -118,23 +111,25 @@
 	  	.venue-image-small {
 			background-image: url(../media/weddingVenue2.jpg);
 			background-size: 100% 100%;
-			border-radius: 20px 2px 2px 2px;
-			width: 210px;
-			height: 210px;
+			border-radius: 210px;
+			width: 300px;
+			height: 300px;
 			box-shadow: 1px 1px 5px #777;
 			display: none;
-			margin: 5px;
-			
-			@media screen and (max-width: 1250px) {
+			margin: 0 auto 20px auto;
+
+		  	@media screen and (max-width: 1250px) {
 		    	display: block;
-		    	float: left;
+		    	float: none;
+		    	background-size: 100%;
 		  	}
+
 		  	@media screen and (max-width: 500px) {
 		    	display: block;
 		    	float: none;
-		    	width: 100%;
+		    	width: 250px;
+		    	height: 250px;
 		    	background-size: 100%;
-		    	border-radius: 50% 50% 2px 2px;
 		  	}
 		}
 
