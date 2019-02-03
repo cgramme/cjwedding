@@ -14,7 +14,7 @@ $(window).scroll(function () {
         $('.header-graphic').css({'transform' : "scale("+(1-(scrollDistance/2000))+")"});
     }
 
-    setTimeout(function(){ alert($('#myVideo').css({'top' : ((scrollDistance/1.5)-20)+"px"});); }, 300);
+    setTimeout(function(){$('#myVideo').css({'top' : ((scrollDistance/1.5)-20)+"px"});  }, 300);
 
 });
 
