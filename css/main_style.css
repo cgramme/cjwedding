@@ -32,7 +32,9 @@ header {
   width: 100%;
   background: #333;
   box-shadow: 0 0 50px #000;
-  overflow: hidden; }
+  overflow: hidden;
+  background: url(../media/lights.jpg);
+  background-size: 100% 100%; }
   @media screen and (max-width: 800px) {
     header {
       height: 300px; } }
