@@ -42,7 +42,7 @@
     .registry-content .registry-left .registry-left-background {
       position: absolute;
       margin: -120px 0 0 -100px;
-      background: radial-gradient(#B69DEB, #eee, #eee);
+      background: radial-gradient(#aaa, #eee, #eee);
       background-size: 100% 100%;
       width: 650px;
       height: 500px;
