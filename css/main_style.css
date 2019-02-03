@@ -164,6 +164,9 @@ main {
     border: none;
     border-radius: 2px; }
 
+#video {
+  width: 800px; }
+
 footer {
   position: relative;
   z-index: 10;
