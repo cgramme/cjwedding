@@ -23,10 +23,14 @@
 	.palms-silhouette {
 		width: 100%;
 		height: 400px;
-		background: url(../media/palms_purp.png);
+		background: url(../media/palms_purp1250.png);
 		background-size: 100% 100%;
 		position: absolute;
 		bottom: 0;
+
+		@media screen and (max-width: 800px) {
+	    	background: url(../media/palms_purp800.png);
+	  	}
 	}
 }
 
@@ -39,10 +43,14 @@
 	.palms-silhouette {
 		width: 100%;
 		height: 400px;
-		background: url(../media/palms_dark_brown2.png);
+		background: url(../media/palms_brown1250.png);
 		background-size: 100% 100%;
 		position: absolute;
 		bottom: 0;
+
+		@media screen and (max-width: 800px) {
+	    	background: url(../media/palms_brown800.png);
+	  	}
 	}
 }
 
@@ -106,7 +114,7 @@
 		}
 
 		.bride-picture {
-			background: url(../media/jamesan1.jpg);
+			background: url(../media/jamesan.jpg);
 			background-size: 100% 100%;
 		}
 

@@ -15,20 +15,26 @@
 .bride-content .palms-silhouette {
   width: 100%;
   height: 400px;
-  background: url(../media/palms_purp.png);
+  background: url(../media/palms_purp1250.png);
   background-size: 100% 100%;
   position: absolute;
   bottom: 0; }
+  @media screen and (max-width: 800px) {
+    .bride-content .palms-silhouette {
+      background: url(../media/palms_purp800.png); } }
 
 .groom-content h3 {
   color: #333; }
 .groom-content .palms-silhouette {
   width: 100%;
   height: 400px;
-  background: url(../media/palms_dark_brown2.png);
+  background: url(../media/palms_brown1250.png);
   background-size: 100% 100%;
   position: absolute;
   bottom: 0; }
+  @media screen and (max-width: 800px) {
+    .groom-content .palms-silhouette {
+      background: url(../media/palms_brown800.png); } }
 
 .party-content {
   width: 100%;
@@ -74,7 +80,7 @@
       z-index: 2;
       text-shadow: 1px 1px 2px #555; }
     .party-content .party-left .bride-picture {
-      background: url(../media/jamesan1.jpg);
+      background: url(../media/jamesan.jpg);
       background-size: 100% 100%; }
     .party-content .party-left .groom-picture {
       background: url(../media/chris.jpg);
