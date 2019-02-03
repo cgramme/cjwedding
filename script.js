@@ -12,9 +12,16 @@ $(window).scroll(function () {
         $('#myVideo').css({'top' : ((scrollDistance/1.5)-20)+"px"});
         $('.header-graphic').css({'top' : (scrollDistance/2)+"px"});
         $('.header-graphic').css({'transform' : "scale("+(1-(scrollDistance/2000))+")"});
+
+
     }
 
-    setTimeout(function(){$('#myVideo').css({'top' : ((scrollDistance/1.5)-20)+"px"});  }, 300);
+    setTimeout(function(){
+
+        if(scrollDistance == 0){
+            $('#myVideo').css({'top' : ((scrollDistance/1.5)-20)+"px"});  
+        }
+    }, 100);
 
 });
 
