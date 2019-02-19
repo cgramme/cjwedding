@@ -51,7 +51,7 @@ $(".nav li").click(function(){
 
         $("#ajaxContent").html(result).removeClass('fade-out').addClass('fade-in');
 
-        if(buttonText === "result"){
+        if(loadPage === "about_content"){
             $('body').append($("<script src='jssor_settings.js' type='text/javascript'></script>"));
         }
 
