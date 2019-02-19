@@ -58,3 +58,18 @@ $(".nav li").click(function(){
   }});
 });
 
+
+function countdown (){
+    var countDownDate = new Date("June 1, 2019").getTime();
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    document.getElementById("days-to-go").innerHTML = days + " days to go";
+    if (distance < 0) {
+        document.getElementById("days-to-go").innerHTML = "We Are Married!";
+    }
+}
+
+countdown();
+
+

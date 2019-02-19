@@ -19,7 +19,7 @@
         </video>
         <div class="header-graphic">
             <h1 class="fade-in-slow">Chris &amp; Jamesan</h1>
-            <h2 class="fade-in-slow">- The Wedding -</h2>
+            <h2 class="fade-in-slow">- Our Wedding -</h2>
         </div>
         <ul class="nav">
             <li>About<hr></li>
@@ -32,28 +32,60 @@
     <main>
         <div class="ajax-content" id="ajaxContent">
             <div class="about-content">
-                <div class="profile-image fade-in-slow"></div>
-                <div class="about-text-left slide-in-from-left">
-                    <h3>Our Story</h3>
-                    <div class="profile-image-small"></div>
-                    <p>Nine years ago, our world changed when we met at work. For me, it was all over when I met Chris. I’ll never forget the first moment I saw him. He was kind and funny, two traits that really set him apart. A few months later we started dating and recently celebrated our 8 year anniversary in November.</p>
+                <div class="about-wrap">
+                    <div id="jssor_1" style="width:800px;height:500px;">
+                        <div id="slides" data-u="slides" style="width:800px;height:500px;">
+                            <div><img data-u="image" src="media/cruise_pic1_800.jpg" style="border-radius: 20px"/></div>
+                            <div><img data-u="image" src="media/wedding_venue1_800.jpg" style="border-radius: 20px"/></div>   
+                            <div><img data-u="image" src="media/wedding_venue2_800.jpg" style="border-radius: 20px"/></div>               
+                            <div><img data-u="image" src="media/tavern_800.jpg" style="border-radius: 20px"/></div>
+                        </div>   
+                        <!-- Arrow Navigator -->
+                        <div data-u="arrowleft" class="jssora051" style="width:65px;height:65px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                            </svg>
+                        </div>
+                        <div data-u="arrowright" class="jssora051" style="width:65px;height:65px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                            </svg>
+                        </div>                             
+                    </div>
+                    <div class="venue-wrap">
+                        <h3>The Venue</h3><br>
+                        <h4>The Barn at Harper Pines</h4>
+                        <h4>577 Roland Rd. Thomaston, Georgia 30286</h4><br>
+                        <p><a href="https://www.google.com/maps/search/The+Barn+at+Harper+Pines,+577+Roland+Rd,+30286+Thomaston/@32.8892145,-84.4450551,16z" target="_blank"><img src="media/maps_logo.png" /></a>The ceremony and reception will be held in Thomaston Upson, at the Barn at Harper Pines. This venue is 150 acres and has its own lake. The ceremony will be conducted in front of the lake a few hundred yards from the main event center where the reception will be held.</p>
+                    </div>
                     <hr>
-                    <div class="clear"></div>
-                </div>
-                <div class="about-text-right slide-in-from-right">
-                    <h3>The Venue</h3>
-                    <div class="venue-image-small"></div>
-                    <p><b>The Barn at Harper Pines:<br><br>577 Roland Rd Thomaston, Georgia 30286</b><br><br>This is a brand new facility set on 150 acres with a Large barn for the reception area. The ceremony will be held lakeside a few hundred feet from the reception.<br><a href="https://www.thebarnatharperpines.com/">thebarnatharperpines.com</a></p>
-                    <hr>
+                    <div class="additional-info">
+                        <div class="dress-code">
+                            <h4>Additional Information</h4><br>
+                            <p>We know June 1st might be warm, so we are keeping the attire casual. Wear whatever you would like… shorts and short sleeves are acceptable. To go along with the time of the year we are having a beach themed wedding. </p>
+                        </div>
+                        <div class="times">
+                            <h4>Event Timing</h4><br>
+                            <ul>
+                                <li>Ceremony - Starts at 4:30pm and will be about 30 minutes long.</li>
+                                <li>Cocktail Hour - After the ceremony while we are taking pictures there will be a cocktail hour. Grab some snacks and drinks.</li>
+                                <li>Reception - 6:00pm to 10:00pm</li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
     <footer>
         <p class="countdown">Wedding Date: June 1 2019</p>
+        <p id="days-to-go"></p>
     </footer>
     <script src="https://code.jquery.com/jquery-1.10.1.min.js" type='text/javascript'></script>
     <script src='script.js' type='text/javascript'></script>
+    <script src='jssor.slider.min.js' type='text/javascript'></script>
+    <script src='jssor_settings.js' type='text/javascript'></script>
     <script src='resizeWindow.js' type='text/javascript'></script>
 </body>
 </html>
