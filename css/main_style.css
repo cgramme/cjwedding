@@ -71,7 +71,7 @@ header {
           padding-top: 80px; } }
       @media screen and (max-width: 600px) {
         header .header-graphic h1 {
-          font-size: 2em;
+          font-size: 2.8em;
           padding-top: 52px; } }
     header .header-graphic h2 {
       color: #fff;
@@ -172,12 +172,11 @@ footer {
   z-index: 10;
   box-shadow: 0 0 50px #444, inset 0 0 10px #222;
   width: 100%;
-  padding: 50px 0;
+  padding: 40px 0;
   background: #222;
-  background: url(../media/sand1e.jpg);
   text-align: center; }
-  footer .countdown {
-    color: #423223;
+  footer .countdown, footer p {
+    color: #aaa;
     font-size: 1.3em;
     text-shadow: 1px 1px 1px #333; }
 
