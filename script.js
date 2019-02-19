@@ -32,7 +32,6 @@ $(".nav li").click(function(){
 
     if($(this).text() == "About"){
         loadPage = "about_content";
-        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
     }else if($(this).text() == "Bride's Party"){
         loadPage = "bride_content";
     }else if($(this).text() == "Groom's Party"){
@@ -51,6 +50,10 @@ $(".nav li").click(function(){
     $("#ajaxContent").addClass('fade-out').delay(500).queue(function(next){
 
         $("#ajaxContent").html(result).removeClass('fade-out').addClass('fade-in');
+
+        if(buttonText === "result"){
+            $('body').append($("<script src='jssor_settings.js' type='text/javascript'></script>"));
+        }
 
         next();
 
