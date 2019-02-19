@@ -75,6 +75,8 @@
       font-size: 1.1em;
       color: #444;
       text-shadow: 1px 1px 1px #999; }
+    .about-content .additional-info li {
+      margin-bottom: 5px; }
   .about-content hr {
     width: 70%; }
 
