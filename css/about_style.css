@@ -74,7 +74,8 @@
     .about-content .additional-info p, .about-content .additional-info li {
       font-size: 1.1em;
       color: #444;
-      text-shadow: 1px 1px 1px #999; }
+      text-shadow: 1px 1px 1px #999;
+      text-align: left; }
     .about-content .additional-info li {
       margin-bottom: 5px; }
   .about-content hr {
