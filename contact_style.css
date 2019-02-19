@@ -1,0 +1,164 @@
+.contact-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  background: #eee;
+  overflow: hidden; }
+  .contact-content h3 {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 50px;
+    color: #333;
+    text-shadow: 1px 1px 2px #555;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 3em; }
+  .contact-content .contact-left {
+    float: left;
+    width: 50%; }
+    @media screen and (max-width: 1150px) {
+      .contact-content .contact-left {
+        float: none;
+        margin: 0 auto 30px auto;
+        width: 100%; } }
+    .contact-content .contact-left .left-wrap {
+      position: relative;
+      width: 500px;
+      float: right;
+      padding-right: 5%; }
+      @media screen and (max-width: 1150px) {
+        .contact-content .contact-left .left-wrap {
+          float: none;
+          margin: 0 auto;
+          padding: 0; } }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-left .left-wrap {
+          width: 400px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-left .left-wrap {
+          width: 320px; } }
+    .contact-content .contact-left .contact-left-background {
+      position: absolute;
+      margin: -120px 0 0 -100px;
+      background: radial-gradient(#aaa, #eee, #eee);
+      background-size: 100% 100%;
+      width: 650px;
+      height: 500px;
+      border-radius: 50%; }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-left .contact-left-background {
+          width: 550px;
+          height: 450px;
+          margin: -120px 0 0 -70px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-left .contact-left-background {
+          width: 450px;
+          height: 350px;
+          margin: -100px 0 0 -60px; } }
+    .contact-content .contact-left .bride-groom-pic {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      background: url(../media/bride_and_groom2.png);
+      background-size: 100% 100%;
+      float: left; }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-left .bride-groom-pic {
+          width: 200px;
+          height: 200px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-left .bride-groom-pic {
+          width: 140px;
+          height: 140px; } }
+    .contact-content .contact-left .dialog-box {
+      position: relative;
+      float: right;
+      width: 250px;
+      height: auto;
+      background: url(../media/dialog_box.png);
+      background-size: 100% 100%;
+      position: relative; }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-left .dialog-box {
+          width: 200px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-left .dialog-box {
+          width: 160px;
+          top: -20px; } }
+    .contact-content .contact-left p {
+      padding: 20px 20px 20px 50px;
+      font-size: 1em; }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-left p {
+          font-size: 0.8em;
+          padding: 10px 10px 10px 40px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-left p {
+          font-size: 0.75em;
+          padding: 15px 10px 10px 30px; } }
+  .contact-content .contact-right {
+    text-align: center;
+    float: right;
+    width: 50%; }
+    @media screen and (max-width: 1150px) {
+      .contact-content .contact-right {
+        float: none;
+        margin: 0 auto;
+        width: 100%; } }
+    .contact-content .contact-right .right-wrap {
+      position: relative;
+      width: 500px;
+      float: left;
+      padding-left: 5%; }
+      @media screen and (max-width: 1150px) {
+        .contact-content .contact-right .right-wrap {
+          float: none;
+          margin: 0 auto;
+          padding: 0; } }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-right .right-wrap {
+          width: 400px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-right .right-wrap {
+          width: 320px; } }
+    .contact-content .contact-right p {
+      position: relative;
+      z-index: 10; }
+    .contact-content .contact-right input {
+      position: relative;
+      z-index: 10; }
+    .contact-content .contact-right textarea {
+      position: relative;
+      z-index: 10;
+      width: 450px;
+      height: 100px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 3px #777; }
+      @media screen and (max-width: 550px) {
+        .contact-content .contact-right textarea {
+          width: 380px; } }
+      @media screen and (max-width: 425px) {
+        .contact-content .contact-right textarea {
+          width: 300px; } }
+    .contact-content .contact-right .enter-text {
+      font-size: 1em;
+      height: 25px;
+      width: 200px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 3px #777; }
+    .contact-content .contact-right .submit-button {
+      width: 100px;
+      height: 40px;
+      background: #5f9ea0;
+      color: #fff;
+      font-size: 1.1em;
+      margin-top: 10px;
+      border-radius: 10px;
+      box-shadow: 1px 1px 3px #333; }
+      .contact-content .contact-right .submit-button:hover {
+        box-shadow: 0px 0px 1px #333;
+        cursor: pointer; }
+
+/*# sourceMappingURL=contact_style.css.map */

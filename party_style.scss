@@ -1,0 +1,300 @@
+.groom-background-color {
+	background: linear-gradient(180deg, #d8c7af, #eee 80%, #88b1ea 120%);
+
+	@media screen and (max-width: 750px) {
+    	background: linear-gradient(180deg, #aaa, #eee);
+  	}
+}
+
+.bride-background-color {
+	background: linear-gradient(90deg, #DCCEF9, #eee);
+
+	@media screen and (max-width: 750px) {
+    	background: linear-gradient(180deg, #9573da, #eee);
+  	}
+}
+
+.bride-content {
+
+	h3 {
+		color: #333;
+	}
+
+	.palms-silhouette {
+		width: 100%;
+		height: 400px;
+		background: url(../media/palms_purp1250.png);
+		background-size: 100% 100%;
+		position: absolute;
+		bottom: 0;
+
+		@media screen and (max-width: 800px) {
+	    	background: url(../media/palms_purp800.png);
+	    	background-size: 100% 100%;
+	  	}
+	}
+}
+
+.groom-content {
+
+	h3 {
+		color: #333;
+	}
+
+	.palms-silhouette {
+		width: 100%;
+		height: 400px;
+		background: url(../media/palms_brown1250.png);
+		background-size: 100% 100%;
+		position: absolute;
+		bottom: 0;
+
+		@media screen and (max-width: 800px) {
+	    	background: url(../media/palms_brown800.png);
+	    	background-size: 100% 100%;
+	  	}
+	}
+}
+
+.party-content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+
+
+	.party-left-wrap {
+		//background: #333;
+		width: 40%;
+		height: auto;
+		float: left;
+
+		@media screen and (max-width: 750px) {
+	    	width: 100%;
+	    	float: none;
+	  	}
+	}
+
+	.party-left {
+		position: relative;
+		float: left;
+		width: 400px;
+		height: auto;
+		padding: 30px 0 50px 0;
+		//background: #aaa;
+		float: right;
+
+		@media screen and (max-width: 950px) {
+	    	width: 100%;
+	    	padding: 30px 0 50px 0;	  	
+	    }
+	    @media screen and (max-width: 750px) {
+	    	width: 100%;
+	    	float: none;
+	    	padding: 20px 0 20px 0;
+	  	}
+
+		.color-graphic-left {
+			position: absolute;
+			//background: linear-gradient(90deg, #4B0082, #eee);
+			width: 800px;
+			height: 100%;
+			top: -0px;
+			left: -0px;
+			z-index: 1;
+			//transform: rotate(-35deg);
+		}
+
+		h3 {
+			font-family: "Dancing Script";
+			//color: #fff;
+			text-align: center;
+			font-size: 3em;
+			margin: 0 0 30px 0;
+			position: relative;
+			z-index: 2;
+			text-shadow: 1px 1px 2px #555;
+		}
+
+		.bride-picture {
+			background: url(../media/jamesan.jpg);
+			background-size: 100% 100%;
+		}
+
+		.groom-picture {
+			background: url(../media/chris.jpg);
+			background-size: 100% 100%;
+		}
+
+		.bride-picture, .groom-picture {
+			position: relative;
+			width: 300px;
+			height: 300px;
+			border-radius: 50%;
+			border: 5px solid #222;
+			overflow: hidden;
+			z-index: 2;
+			margin: 0 auto;
+			box-shadow: 1px 1px 10px #000, inset 1px 1px 3px #222;
+
+			@media screen and (max-width: 950px) {
+		    	height: 250px;
+		    	width: 250px;
+		  	}
+		  	@media screen and (max-width: 750px) {
+		    	width: 300px;
+		    	height: 300px;
+		  	}
+
+			p {
+				text-align: center;
+				color: #fff;
+				text-shadow: 1px 1px 1px #222;
+				background: rgba(0, 0, 0, 0.7);
+				position: relative;
+				top: 250px;
+				padding: 10px 20px 20px 20px;
+
+				@media screen and (max-width: 950px) {
+			    	top: 200px;
+			  	}
+			  	@media screen and (max-width: 750px) {
+			    	top: 250px;
+			  	}
+			}
+		}
+	}
+
+	.party-right-wrap {
+		//background: #777;
+		width: 60%;
+		height: auto;
+		float: right;
+
+		@media screen and (max-width: 750px) {
+	    	width: 100%;
+	    	float: none;
+	  	}
+	}
+
+	.party-right {
+		position: relative;
+		float: left;
+		width: 700px;
+		height: auto;
+		padding: 30px 0 50px 0;
+		//background: #ddd;
+
+		@media screen and (max-width: 1150px) {
+	    	width: 95%;
+	    	padding: 30px 0 50px 0;
+	  	}
+	  	@media screen and (max-width: 750px) {
+	    	width: 100%;
+	    	float: none;
+	    	padding: 0px 0 30px 0;
+	  	}
+
+		h3 {
+			position: relative;
+			z-index: 10;
+			text-align: center;
+			font-family: "Dancing Script";
+			//color: #fff;
+			font-size: 3em;
+			margin: 0 0 30px 0;
+			text-shadow: 1px 1px 2px #555;
+		}
+
+		ul {
+			text-align: center;
+
+			li {
+				text-align: center;
+				display: inline-block;
+				width: 32%;
+
+				.profile {
+					position: relative;
+					z-index: 10;
+					overflow: hidden;
+					width: 150px;
+					height: 150px;
+					border-radius: 50%;
+					border: 5px solid #333;
+					margin: 0 auto;
+					box-shadow: 1px 1px 10px #000, inset 1px 1px 3px #333;
+
+					@media screen and (max-width: 1150px) {
+				    	height: 120px;
+				    	width: 120px;
+				  	}
+				  	@media screen and (max-width: 450px) {
+				    	height: 100px;
+				    	width: 100px;
+				  	}
+				}
+
+				.rachel {
+					background: url(../media/rachel.jpg);
+					background-size: 100% 100%;
+				}
+				.samantha {
+					background: url(../media/samantha.jpg);
+					background-size: 100% 100%;
+				}
+				.sarah {
+					background: url(../media/sarah.jpg);
+					background-size: 100% 100%;
+				}
+				.christine {
+					background: url(../media/christine.jpg);
+					background-size: 100% 100%;
+				}
+				.jena {
+					background: url(../media/jena.jpg);
+					background-size: 100% 100%;
+				}
+				.brian {
+					background: url(../media/brian.jpg);
+					background-size: 100% 100%;
+				}
+				.tristan {
+					background: url(../media/tristan.jpg);
+					background-size: 100% 100%;
+				}
+				.jeff {
+					background: url(../media/jeff.jpg);
+					background-size: 100% 100%;
+				}
+				.lee {
+					background: url(../media/lee.jpg);
+					background-size: 100% 100%;
+				}
+				.ian {
+					background: url(../media/ian.jpg);
+					background-size: 100% 100%;
+				}
+
+				p {
+					color: #fff;
+					text-shadow: 1px 1px 1px #222;
+					background: rgba(0, 0, 0, 0.7);
+					position: relative;
+					top: 115px;
+					font-size: 0.7em;
+					padding: 3px 20px 20px 20px;
+
+					@media screen and (max-width: 1150px) {
+				    	top: 85px;
+				    	font-size: 0.7em
+				  	}
+				  	@media screen and (max-width: 450px) {
+				    	top: 65px;
+				    	font-size: 0.7em
+				  	}
+
+				}
+			}
+		}
+	}
+}

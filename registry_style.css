@@ -1,0 +1,171 @@
+.registry-content {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  background: #eee;
+  overflow: hidden; }
+  .registry-content h3 {
+    position: relative;
+    z-index: 10;
+    padding-bottom: 50px;
+    color: #333;
+    text-shadow: 1px 1px 2px #555;
+    text-align: center;
+    font-family: "Dancing Script";
+    font-size: 3em; }
+  .registry-content .registry-left {
+    float: left;
+    width: 50%; }
+    @media screen and (max-width: 1150px) {
+      .registry-content .registry-left {
+        float: none;
+        margin: 0 auto 30px auto;
+        width: 100%; } }
+    .registry-content .registry-left .left-wrap {
+      position: relative;
+      width: 500px;
+      float: right;
+      padding-right: 5%; }
+      @media screen and (max-width: 1150px) {
+        .registry-content .registry-left .left-wrap {
+          float: none;
+          margin: 0 auto;
+          padding: 0; } }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-left .left-wrap {
+          width: 400px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-left .left-wrap {
+          width: 320px; } }
+    .registry-content .registry-left .registry-left-background {
+      position: absolute;
+      margin: -120px 0 0 -100px;
+      background: radial-gradient(#aaa, #eee, #eee);
+      background-size: 100% 100%;
+      width: 650px;
+      height: 500px;
+      border-radius: 50%; }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-left .registry-left-background {
+          width: 550px;
+          height: 450px;
+          margin: -120px 0 0 -70px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-left .registry-left-background {
+          width: 450px;
+          height: 350px;
+          margin: -100px 0 0 -60px; } }
+    .registry-content .registry-left .bride-groom-pic {
+      position: relative;
+      width: 250px;
+      height: 250px;
+      background: url(../media/bride_and_groom2.png);
+      background-size: 100% 100%;
+      float: left; }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-left .bride-groom-pic {
+          width: 200px;
+          height: 200px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-left .bride-groom-pic {
+          width: 140px;
+          height: 140px; } }
+    .registry-content .registry-left .dialog-box {
+      float: right;
+      width: 250px;
+      height: auto;
+      background: url(../media/dialog_box.png);
+      background-size: 100% 100%;
+      position: relative; }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-left .dialog-box {
+          width: 200px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-left .dialog-box {
+          width: 160px;
+          top: -20px; } }
+    .registry-content .registry-left p {
+      padding: 20px 20px 20px 50px;
+      font-size: 1em; }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-left p {
+          font-size: 0.8em;
+          padding: 10px 10px 10px 40px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-left p {
+          font-size: 0.75em;
+          padding: 15px 10px 10px 35px; } }
+  .registry-content .registry-right {
+    text-align: center;
+    float: right;
+    width: 50%; }
+    @media screen and (max-width: 1150px) {
+      .registry-content .registry-right {
+        float: none;
+        margin: 0 auto;
+        width: 100%; } }
+    .registry-content .registry-right .right-wrap {
+      width: 500px;
+      float: left;
+      padding-left: 5%; }
+      @media screen and (max-width: 1150px) {
+        .registry-content .registry-right .right-wrap {
+          float: none;
+          margin: 0 auto;
+          padding: 0; } }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-right .right-wrap {
+          width: 400px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-right .right-wrap {
+          width: 320px; } }
+    .registry-content .registry-right .registry-link {
+      position: relative;
+      width: 100%;
+      -webkit-transition: 0.8s;
+      transition: 0.8s; }
+      .registry-content .registry-right .registry-link:hover {
+        cursor: pointer;
+        transform: scale(1.1); }
+    .registry-content .registry-right .gifts {
+      position: relative;
+      z-index: 10;
+      background: url(../media/gifts.png);
+      background-size: 100% 100%;
+      width: 400px;
+      height: 270px;
+      margin: auto;
+      text-align: center; }
+      @media screen and (max-width: 550px) {
+        .registry-content .registry-right .gifts {
+          width: 300px;
+          height: 200px; } }
+      @media screen and (max-width: 425px) {
+        .registry-content .registry-right .gifts {
+          width: 270px;
+          height: 170px; } }
+      .registry-content .registry-right .gifts p {
+        position: relative;
+        top: 120px;
+        font-size: 2.2em;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 5px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 20px;
+        width: 240px;
+        margin: auto; }
+        @media screen and (max-width: 550px) {
+          .registry-content .registry-right .gifts p {
+            top: 80px;
+            font-size: 1.8em;
+            width: 200px; } }
+        @media screen and (max-width: 425px) {
+          .registry-content .registry-right .gifts p {
+            top: 60px;
+            font-size: 1.5em;
+            width: 170px; } }
+
+/*# sourceMappingURL=registry_style.css.map */

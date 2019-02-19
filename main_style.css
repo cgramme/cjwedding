@@ -1,0 +1,183 @@
+html, body, h1, h2, h3, h4, h5, li, ul, ol, input, select, div, p {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-weight: normal; }
+
+.testing-text {
+  position: fixed;
+  color: red;
+  z-index: 50; }
+
+html {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
+  font-size: 16px; }
+
+body {
+  width: 100%; }
+
+header {
+  perspective: 200px;
+  perspective-origin: bottom;
+  position: relative;
+  z-index: 10;
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  background: #333;
+  box-shadow: 0 0 50px #000;
+  overflow: hidden;
+  background: #222;
+  background-size: 100% 100%; }
+  @media screen and (max-width: 1200px) {
+    header {
+      background: url(../media/lights1200.jpg); } }
+  @media screen and (max-width: 800px) {
+    header {
+      height: 300px;
+      background: url(../media/lights800.jpg); } }
+  @media screen and (max-width: 600px) {
+    header {
+      height: 250px; } }
+  header #myVideo {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    min-height: 100%;
+    display: block; }
+    @media screen and (max-width: 1200px) {
+      header #myVideo {
+        display: none; } }
+  header .header-graphic {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    font-family: "Dancing Script"; }
+    header .header-graphic h1 {
+      padding-top: 100px;
+      color: #fff;
+      font-size: 4.5em;
+      text-shadow: 1px 1px 10px #000; }
+      @media screen and (max-width: 800px) {
+        header .header-graphic h1 {
+          font-size: 3em;
+          padding-top: 80px; } }
+      @media screen and (max-width: 600px) {
+        header .header-graphic h1 {
+          font-size: 2.8em;
+          padding-top: 52px; } }
+    header .header-graphic h2 {
+      color: #fff;
+      font-size: 2.5em;
+      text-shadow: 1px 1px 5px #222; }
+      @media screen and (max-width: 800px) {
+        header .header-graphic h2 {
+          font-size: 2em; } }
+  header ul.nav {
+    transform-style: preserve-3d;
+    transform-origin: 50% 100%;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(12, 117, 161, 0.9), rgba(20, 29, 40, 0.5));
+    box-shadow: 0 0 5px #222, inset 0 0 50px #222;
+    overflow: hidden;
+    position: absolute;
+    bottom: 0; }
+    @media screen and (max-width: 600px) {
+      header ul.nav {
+        background: #222; } }
+    header ul.nav li {
+      font-size: 1.7em;
+      font-family: "Dancing Script";
+      color: #fff;
+      display: inline-block;
+      width: 20.01%;
+      height: 55px;
+      padding-top: 15px;
+      margin-left: -4px;
+      -webkit-transition: 0.8s;
+      /* Safari */
+      transition: 0.8s;
+      vertical-align: middle;
+      text-shadow: 1px 1px 2px #000; }
+      @media screen and (max-width: 800px) {
+        header ul.nav li {
+          font-size: 1.3em;
+          padding-top: 15px;
+          height: 50px; } }
+      @media screen and (max-width: 600px) {
+        header ul.nav li {
+          font-size: 1.3em;
+          padding-top: 3px;
+          width: 33.5%;
+          height: 30px;
+          border-bottom: 1px solid #333; } }
+      header ul.nav li hr {
+        border: 0;
+        width: 60%;
+        border-radius: 2px;
+        height: 1px;
+        box-shadow: 1px 1px 2px #333;
+        background: linear-gradient(90deg, #423223, #5e4b38);
+        -webkit-transition: 0.8s;
+        /* Safari */
+        transition: 0.8s;
+        opacity: 1;
+        display: block; }
+        @media screen and (max-width: 800px) {
+          header ul.nav li hr {
+            height: 1px;
+            display: block; } }
+        @media screen and (max-width: 600px) {
+          header ul.nav li hr {
+            display: none; } }
+      header ul.nav li:hover {
+        background: rgba(151, 202, 232, 0.5);
+        cursor: pointer;
+        text-shadow: 1px 1px 2px #555;
+        font-size: 2em;
+        box-shadow: inset 0 0 50px #2A75A1; }
+        @media screen and (max-width: 800px) {
+          header ul.nav li:hover {
+            font-size: 1.5em; } }
+        header ul.nav li:hover hr {
+          opacity: 0;
+          width: 0; }
+
+main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background: #eee; }
+  main .main-hr {
+    width: 70%;
+    margin-bottom: 30px;
+    height: 1px;
+    background: #ccc;
+    border: none;
+    border-radius: 2px; }
+
+#video {
+  width: 800px; }
+
+footer {
+  position: relative;
+  z-index: 10;
+  box-shadow: 0 0 50px #444, inset 0 0 10px #222;
+  width: 100%;
+  padding: 40px 0;
+  background: #222;
+  text-align: center; }
+  footer .countdown, footer p {
+    color: #aaa;
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px #333; }
+
+/*# sourceMappingURL=main_style.css.map */
