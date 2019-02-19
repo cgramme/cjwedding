@@ -32,6 +32,7 @@ $(".nav li").click(function(){
 
     if($(this).text() == "About"){
         loadPage = "about_content";
+        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
     }else if($(this).text() == "Bride's Party"){
         loadPage = "bride_content";
     }else if($(this).text() == "Groom's Party"){
